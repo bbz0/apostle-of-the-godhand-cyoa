@@ -1,0 +1,49 @@
+section {
+	padding: 150px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
+input[type="checkbox"].warning {
+	visibility: visible;
+}
+
+.login {
+	padding-top: 15%;
+	background-image: linear-gradient(rgba(0, 0, 0 ,0.7), rgba(0, 0, 0, 0.7)), url('../img/bosch.jpg');
+}
+
+.cover {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.warning {
+	padding-top: 15%;
+	background-image: linear-gradient(rgba(0, 0, 0 ,0.7), rgba(0, 0, 0, 0.7)), url('../img/warning.jpg');
+}
+
+.welcome {
+	padding-top: 20%;
+	background-image: linear-gradient(rgba(0, 0, 0 ,0.7), rgba(0, 0, 0, 0.7)), url('../img/eclipse.jpg');
+}
+
+.show {
+	background-image: linear-gradient(rgba(0, 0, 0 ,0.7), rgba(0, 0, 0, 0.7)), url('../img/eclipse.jpg');
+	background-attachment: fixed;
+}
+
+.cat-img {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.choice-card:hover {
+	cursor: pointer;
+}

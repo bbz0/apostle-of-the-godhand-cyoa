@@ -1,0 +1,5 @@
+app/.env
+app/vendor
+app/composer.json
+app/composer.lock
+public/img/
